@@ -2,7 +2,7 @@
 using namespace std;
 int opcion;
 int main(){
-    cout<<"ingrese un numero del 1 al 7: ";
+    cout<<"ingrese un numero del 1 al 8: ";
     cin>>opcion;
     switch(opcion)
         {
@@ -34,6 +34,12 @@ int main(){
             case 7: 
                 cout<<"El dia es Domingo"<<endl;
                 break;
+            
+            case 8:
+                cout<<"algo";
+                break ;
+
+              
             
             default:
                 cout<<"La opcion no es valida"<<endl;
