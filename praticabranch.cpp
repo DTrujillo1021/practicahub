@@ -39,6 +39,9 @@ int main(){
                 cout<<"algo";
                 break ;
 
+            case 9:
+                cout<<"pan"<<endl;
+
               
             
             default:
